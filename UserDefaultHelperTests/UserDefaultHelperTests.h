@@ -7,7 +7,21 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "UserDefaultHelper.h"
 
-@interface UserDefaultHelperTests : SenTestCase
+@interface UserDefaultHelperTests : SenTestCase {
+    
+    NSString *stringValue;
+    float floatValue;
+    int intValue;
+    double doubleValue;
+    BOOL boolValue;
+    
+    NSString *doubleKey;
+    NSString *floatKey;
+    NSString *intKey;
+    NSString *boolKey;
+    NSString *stringKey;
+}
 
 @end
